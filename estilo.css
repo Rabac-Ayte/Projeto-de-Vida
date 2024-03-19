@@ -10,11 +10,10 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-image: url(https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia16043/caracteristicas-cavalos-saudaveis-artigos-cursos-cpt.jpg);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
-
 
 .conteudo-principal {
     display: flex;
@@ -33,7 +32,7 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--verde);
+    color: var(#00ff00);
 }
 
 
@@ -44,7 +43,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 18px;
+    font-size: 16px;
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--botao-ativo);
@@ -53,16 +52,24 @@ body {
     border-top: none;
 }
 
+.decisão {
+
+    display: block;
+
+}
+
 .damedaeeeedameodamedaduo {
 
     font-family: 'Times New Roman', Times, serif;
     background-color: aquamarine;
     color: goldenrod;
     display: flex;
-    justify-content: bottom;
+    justify-content: center;
     font-size: 24px;
     padding: 1em;
-    align-items: bottom;
+    align-items: center;
+    width: 100%;
+    
 }
 
 .botao:first-child {
@@ -76,15 +83,21 @@ body {
 .botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+    display: flex;
 }
 
 .abas-textos{
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
+    max-width: 1120px;
+    margin: 0 auto;
 }
+
 .aba-conteudo.ativo{
-    display:block;
+    display: block;
+    min-width: 1200px;
+
 }
 
 .aba-conteudo{
