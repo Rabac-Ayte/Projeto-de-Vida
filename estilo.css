@@ -2,15 +2,17 @@
 
 :root {
     --cor-de-fundo: #ff8724;
-    --verde: #000000;
-    --branco: rgb(0, 0, 0);
+    --verde: #ff0707;
+    --branco: rgb(255, 0, 0);
     --botao-ativo: #52e74d;
     --botao-inativo: rgb(41, 248, 255);
     --texto-fundo: rgb(255, 217, 2);
 }
 
 body {
-    background-image: url(https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia16043/caracteristicas-cavalos-saudaveis-artigos-cursos-cpt.jpg);
+    background-image: url(estabulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -38,7 +40,10 @@ body {
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
-    background-color: var(--botao-inativo);
+    background-image: url(anatomia.webp);
+    background-size: cover;
+    image-resolution: 50%;
+    image-orientation: from-image;
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -59,10 +64,10 @@ body {
 }
 
 .damedaeeeedameodamedaduo {
-
     font-family: 'Times New Roman', Times, serif;
-    background-color: aquamarine;
-    color: goldenrod;
+    background: url(dinheiro.jpg);
+    background-size: cover;
+    color: red;
     display: flex;
     justify-content: center;
     font-size: 24px;
@@ -87,7 +92,8 @@ body {
 }
 
 .abas-textos{
-    background-color: var(--texto-fundo);
+    background: url(cavalo.jpeg);
+    background-size: cover;
     padding: 40px;
     border-radius: 0 0 40px 40px;
     max-width: 1120px;
